@@ -4,6 +4,9 @@ Vercel Express and UI Webapp Example.
 
 Live Demo - https://bottleproject.vercel.app/
 
+# Mongodb
+The application is able to connect to mongodb. The code is in db.js
+
 ### Set up & Deploy with Vercel
 
 ```
@@ -12,8 +15,7 @@ $ npm install
 $ vercel
 ```
 
-# db
-The application is able to connect to mongodb. The code is in db.js
+
 
 - Vercel will generate a ".vercel" directory, don't share or commit this one.
 - After deploying, open your URL like this:
