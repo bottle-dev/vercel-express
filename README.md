@@ -2,7 +2,7 @@
 
 Vercel Express and UI Webapp Example.
 
-Live Demo - https://vercel-express-3.ngduc.vercel.app
+Live Demo - https://bottleproject.vercel.app/
 
 ### Set up & Deploy with Vercel
 
@@ -11,6 +11,9 @@ $ npm install vercel -g
 $ npm install
 $ vercel
 ```
+
+# db
+The application is able to connect to mongodb. The code is in db.js
 
 - Vercel will generate a ".vercel" directory, don't share or commit this one.
 - After deploying, open your URL like this:
