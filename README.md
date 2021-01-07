@@ -15,6 +15,25 @@ $ npm install
 $ vercel
 ```
 
+### To run on localhost
+Sign up for an account on [vercel](https://vercel.com)
+
+Run the following command:
+```
+$ vercel login
+```
+
+You should be asked for your email. Type in your email and proceed to your email inbox.
+After you have logged in select the relevant project. You can just press enter if there is only one project.
+After you have setup everythign and logged in, run the following command and then it will tell you which port it is running at
+
+```
+$ vercel dev
+```
+
+### To use graphQL server
+After you run the application navigate to http://localhost:3000/api/
+
 
 
 - Vercel will generate a ".vercel" directory, don't share or commit this one.
@@ -38,3 +57,4 @@ $ vercel
 ### Links
 - https://vercel.com/guides/using-express-with-vercel
 - https://medium.com/javascript-in-plain-english/create-and-deploy-a-node-js-express-app-for-free-f75d8796ba70
+- https://www.apollographql.com/docs/apollo-server/getting-started/
